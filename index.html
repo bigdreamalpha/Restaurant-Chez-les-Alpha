@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chez les Alpha&</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <img src="images/menu.jpg" alt="Logo" class="logo">
+            <h1>Chez les Alpha</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#reservation">Réservation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Notre equipe">Notre equipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <h2>Une cuisine authentique</h2>
+            <p>Saveurs locales et ambiance conviviale</p>
+        </div>
+    </section>
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2>À propos</h2>
+            <p>Depuis 2025, le Restaurant "chez les Alpha" vous propose des plats faits maison à partir d’ingrédients locaux. Notre passion pour la gastronomie se reflète dans chaque assiette.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2><i class="fas fa-utensils"></i> Menu</h2>
+            <div class="menu-items">
+                <div class="item">
+                    <h3>Soupe à la viande</h3>
+                    <p>Traditionnelle avec de la viande de vache</p>
+                </div>
+                <div class="item">
+                    <h3>Athieke</h3>
+                    <p>Avec du gros poisson pour vous</p>
+                </div>
+                <div class="item">
+                    <h3>Riz au gras</h3>
+                    <p>bien gras, bien rouge et n'attends plus que .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="equipe">
+    <div class="container equipe-flex">
+        <div class="equipe-photo">
+            <img src="images/equipe.jpg" alt="">
+        </div>
+        <div class="equipe-texte">
+            <h2><i class="fas fa-users"></i> Notre équipe</h2>
+            <p>Notre équipe est composée de chefs passionnés et de serveurs dévoués, prêts à vous offrir une expérience culinaire inoubliable.</p>
+            <h2 id="team">Une équipe dynamique qui est à votre service</h2>
+        </div>
+    </div>
+</section>
+
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <h2><i class="fas fa-camera"></i> Galerie</h2>
+            <div class="images">
+                <img src="images/Plat6.jpg" alt="plat 1">
+                <img src="images/Plat4.jpg" alt="plat 2">
+                <img src="images/Plat2.jpg" alt="plat 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2><i class="fas fa-calendar-check"></i> Réserver une table</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Heure :</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="people">Nombre de personnes :</label>
+                <input type="number" id="people" name="people" min="1" max="20" required>
+
+                <button type="submit">Réserver maintenant</button>
+            </form>
+
+            <div class="payment">
+                <h3>Payer à l’avance</h3>
+                <p>tèrs Chèr <strong>Mr Bangaly</strong> veuillez noter que sans js ce bouton ne sert a rien </p>
+                <button class="pay-button"><i class="fas fa-credit-card"></i> Payer 50$</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Conakry, carrefour boulevard, kaloum, Guinée</p>
+            <p><i class="fas fa-phone"></i>622-30-38-42</p>
+            <p><i class="fas fa-envelope"></i> dialloalphamamadoucellou@gmail.com</p>
+            <p><strong>Ouvert 7jours/7</strong></p>
+        </div>
+    </section>
+    <footer>
+        <div class="social">
+            <i>fab fa-facebook</i>
+            <i>fab fa-instagram</i>
+            <i>fab fa-tiktok</i>
+             <i>fab fa-twitter</i>
+        </div>
+        <div class="container">
+            <p>&copy; 2025 chez les alpha. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
